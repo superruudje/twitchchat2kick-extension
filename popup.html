@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Configure Twitch Channel</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 10px;
+            width: 250px;
+        }
+
+        label, input, button {
+            display: block;
+            margin-bottom: 10px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <label for="channelName">Twitch Channel Name:</label>
+    <input id="channelName" type="text" placeholder="channel name"/>
+
+    <label for="chatHeight">Twitch Chat Height (%):</label>
+    <input id="chatHeight" type="number" min="10" max="90" placeholder="33.333" />
+
+    <button id="saveBtn">Save</button>
+    <a href="https://ko-fi.com/superruudje" target="_blank">Support me on Ko-Fi.</a>
+    <div id="status"></div>
+
+    <script src="popup.js"></script>
+    </body>
+</html>
